@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#wrapper{
+    background-color:skyblue;
+    height: auto;
+    display: inline-block;
+    width: 1000px;
+    
+}
+#wrapper img{
+    width 150px;
+    margin: 25px;
+
+}
+h1{
+    display: inline-block;
+    color:white;
+    font-size: 60px;  
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+    display: inline;
+    font: 20px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin-bottom: 30px;
+}
