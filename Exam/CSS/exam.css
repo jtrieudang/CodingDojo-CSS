@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(6,33,52);
+    width: 930px;
+    height:1045px;
+}
+
+header h1, header ul{
+    display: inline-block;
+    margin: 20px 20px 0px;
+}
+
+header a, header li{
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: white;
+}
+
+header li {
+    text-align: center;
+    padding: 0px 25px 0px 27px;
+    justify-content: space-around;
+}
+
+.JAMES{
+    color:silver;
+}
+
+.CONSULTING{
+    color: rgb(25,142,216);
+}
+
+.home{
+    color:rgb(33,76,106);
+}
+
+#white_background{
+    background-color: white;
+    margin: 20px 20px 0px 20px;
+}
+
+.big_picture{
+    margin:20px 20px 0px 20px;
+}
+
+#main_content{
+    background-color: white;
+    margin: 10px;
+}
+
+.middle_3{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.left_content, .middle_content, .right_content{
+    text-align: left;
+    display: inline-block;
+    width: 250px;
+    height: 240px;
+    padding: 11px;
+    margin: 5px;
+    background-color: rgb(20,104,168);
+    
+}
+.left_content h2, .middle_content h2, .right_content h2, .left_content p, .middle_content p, .right_content p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:8px;
+}
+
+.left_content p, .middle_content p, .right_content p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.icon{
+    width: 26px;
+    height: 26px;
+    background-color: white;
+}
+
+.button{
+    background: rgb(79,113,250);
+    background: linear-gradient(0deg, rgba(79,113,250,1) 0%, rgba(94,113,226,1) 0%, rgba(62,129,142,1) 57%, rgba(83,213,255,1) 100%);
+    border: hidden;
+    border-radius: 5px 5px 5px 5px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin: 25px 20px 20px 20px;
+
+}
+
+.bottom_boxes li{
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+    vertical-align: top;
+}
+
+.bottom_midbox, .Sarah{
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(77,101,120);
+    text-align: left;
+}
+
+.bottom_midbox{
+    margin-top:39px;
+}
+
+.bottom_midbox h5 a{
+    text-decoration: none;
+    font-size: 20px;
+    color:darkcyan;
+    line-height: 3em;
+}
+
+.TESTIMONIAL h3, .WORLD h3{
+    color: rgb(77,101,120);
+    font-size: 22px;
+    text-align: left;
+    width: 275px;
+    margin-bottom:10px;
+}
+
+.bubble, .bubble p{
+    background-color: rgb(218,237,255);
+    font-style: italic;
+    color: rgb(80,102,130);
+    text-align:center;
+    padding: 20px 20px 40px 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: rgb(218,237,255);
+    margin: 2px 20px 10px 20px;
+    padding:10px;
+    text-align: center;
+}
+
+footer li, footer a{
+    display: inline;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+    color:rgb(95,143,179);
+}
+
+.JAMES, .CONSULTING, .left_content h2, .middle_content h2, .right_content h2,.TESTIMONIAL h3, .WORLD h3, .bottom_midbox h5 a, .Sarah{
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
